@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Welcome Back!</title>
+</head>
+<body>
+        <div class="flex-container">
+            <div class="flex-card" id="card01">
+                <h1>WELCOME BACK!</h1>
+                <button id="btLogin" onclick="Clique(this.id)">LOGIN</button>
+            </div>
+            <div class="flex-card" id="card02">
+                <div class="socialnav" >
+                    <img id="icon01" src="github.png">
+                </div>
+                <div id="box">
+                    <label>LOGIN</label><input type="text" id="txLogin"></input>
+                    <label>PASSWORD</label><input type="password" id="txPassword"></input>
+                    <button id="btLogin" onclick="Login(this.id)">CONFIRM</button>
+                </div>
+                <h1 id="sucess">SUCESS!</h1>
+                
+            </div>
+        </div>
+
+
+</body>
+<script src="script.js"></script>
+</html>
